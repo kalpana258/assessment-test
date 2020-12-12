@@ -1,0 +1,12 @@
+{
+
+    "require": {
+        "php-amqplib/php-amqplib": ">=2.9.0"
+       
+    },
+       "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}

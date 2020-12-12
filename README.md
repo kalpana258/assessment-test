@@ -25,11 +25,11 @@ $ docker-compose up -d
     password:guest
 * Go to php container using below comamand:
 ```
-$ docker exec -it php-box1 bash
+$ docker exec -it php-box1-con bash
 ```
 * Run composer install 
 ```
-$ cd ../assetment_app
+$ cd ../assessment-test
 $ composer install
 ```
 * Run db migrate to create tables(products and variants).
